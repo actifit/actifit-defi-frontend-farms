@@ -101,7 +101,7 @@ const farms: FarmConfig[] = [
   {
     pid: 9,
     risk: 1,
-    lpSymbol: 'USDT-BUSD LP',
+    lpSymbol: 'USDT-BUSD LP (PCS V1)',
     lpAddresses: {
       97: '',
       56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd',
@@ -115,9 +115,25 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 5,
+    risk: 1,
+    lpSymbol: 'USDT-BUSD LP (PCS V2)',
+    lpAddresses: {
+      97: '',
+      56: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00',
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      97: '',
+      56: '0x55d398326f99059ff775485246999027b3197955',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 10,
     risk: 1,
-    lpSymbol: 'USDC-BUSD LP',
+    lpSymbol: 'USDC-BUSD LP (PCS V1)',
     lpAddresses: {
       97: '',
       56: '0x680dd100e4b394bda26a59dd5c119a391e747d18',
