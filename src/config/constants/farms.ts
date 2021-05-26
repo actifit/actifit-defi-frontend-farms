@@ -3,7 +3,7 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
-    pid: 0,
+    pid: 6,
     risk: 3,
     lpSymbol: 'AFITX-BUSD LP',
     lpAddresses: {
@@ -51,7 +51,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 6,
+    pid: 0,
     risk: 5,
     lpSymbol: 'EGG-BUSD LP',
     lpAddresses: {
