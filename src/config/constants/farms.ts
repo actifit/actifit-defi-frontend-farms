@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AFITX-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x6fc8D540BD224BAB1995E78E0f0943a72D286200',
+      56: '0xb8b97566948404f32a5c6cd4a1b89f7a94607d38',
     },
     tokenSymbol: 'AFITX',
     tokenAddresses: {
       97: '',
-      56: '0x45Ab2c6Fa4a270A46411939120FaF3a54196fe43',
+      56: '0x246d22ff6e0b90f80f2278613e8db93ff7a09b95',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
