@@ -115,7 +115,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 5,
+    pid: 3,
     risk: 1,
     lpSymbol: 'USDT-BUSD LP (PCS V2)',
     lpAddresses: {
